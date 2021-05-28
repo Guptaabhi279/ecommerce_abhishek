@@ -52,6 +52,18 @@ const ProductResults = ({ }) => {
     }, {
       name: 'Womens',
       value: 'womens'
+    }, {
+      name: 'Grocery',
+      value: 'grocery'
+    }, {
+      name: 'Electronics',
+      value: 'electronics'
+    }, {
+      name: 'Home Decor',
+      value: 'home decor'
+    }, {
+      name: 'Appliances',
+      value: 'appliances'
     }],
     handleChange: handleFilter
   };

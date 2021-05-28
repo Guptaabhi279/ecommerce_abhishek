@@ -105,7 +105,20 @@ const Admin = props => {
               }, {
                 value: "womens",
                 name: "Womens"
-              }]}
+              }, {
+                value: "grocery",
+                name: "Grocery"
+              }, {
+                value: "electronics",
+                name: "Electronics"
+              }, {
+                value: "home decor",
+                name: "Home Decor"
+              }, {
+                value: "appliances",
+                name: "Appliances"
+              }
+            ]}
               handleChange={e => setProductCategory(e.target.value)}
             />
 
